@@ -1,0 +1,6 @@
+print("Eunice Rodriguez")
+print("Depertment of Computer Engineering")
+print("Polytechnic University of the Philippines")
+print("Sta. Mesa, Manila")
+print("409 Block 9 West Rembo")
+print("Taguig City, Metro Manila")
