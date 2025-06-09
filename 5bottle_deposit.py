@@ -1,11 +1,8 @@
 a_liter_or_less = 0.10
 more_than_a_liter = 0.25
 
-def calculate_deposit(bottle_size):
-    num_bottles = (input("Enter the size of the bottle:"))
-    
-    if bottle_size <= 1:
-        return a_liter_or_less
-    else:
-        return more_than_a_liter
-    
+small_bottles = int(input("Enter the number of small bottles (1 liter or less): "))
+large_bottles = int(input("Enter the number of large bottles (more than 1 liter): "))
+
+refund = (small_bottles * a_liter_or_less) + (large_bottles * more_than_a_liter)
+print(f"The total refund is: ${refund:.2f}")
